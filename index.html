@@ -10,7 +10,38 @@
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="css/style.css" rel='stylesheet' type='text/css' />
     <script src="js/jquery.min.js"></script>
+    <!-- 引入项目下面生成的symbol代码： -->
+    <script src="js/iconfont.js"></script>
 </head>
+<style type="text/css">
+.icon {
+    width: 15%;
+    height: 1rem;
+    /*vertical-align: top;*/
+    fill: #fff;
+    overflow: hidden;
+    float: left;
+}
+
+.icon_h {
+    width: 20%;
+    height: 2rem;
+    /*height: auto;*/
+    /*vertical-align: top;*/
+    fill: #fff;
+    overflow: hidden;
+    /*margin: .5rem .2rem;*/
+}
+.icon_l {
+    width: 1.5rem;
+    height: 1.5rem;
+    /*vertical-align: top;*/
+    fill: #fff;
+    overflow: hidden;
+    float: left;
+    margin: 0 .5rem;
+}
+</style>
 
 <body>
     <!-- header -->
@@ -20,18 +51,48 @@
             <img src="picture/avt.png" alt="" />
         </div>
         <div class="details">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-addressbook_fill"></use>
+            </svg>
             <h3>基本信息</h3>
             <p>男 24岁
                 <br> 学历：本科
                 <br>专业：软件工程
                 <br> 应届毕业生
             </p>
-            <h3>求职意向：</h3>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-flag_fill"></use>
+            </svg>
+            <h3>求职意向</h3>
             <p>web前端开发、php开发</p>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-shouji"></use>
+            </svg>
             <h3>手机</h3>
             <p>131-0552-7659</p>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-youxiang"></use>
+            </svg>
             <h3>邮箱</h3>
             <p><a href="867497106@qq.com">867497106@qq.com</a></p>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fillxingquaihao01"></use>
+            </svg>
+            <h3>兴趣爱好</h3>
+            <p>
+                <svg class="icon_h" aria-hidden="true">
+                    <use xlink:href="#icon-icon5"></use>
+                </svg>
+                <svg class="icon_h" aria-hidden="true">
+                    <use xlink:href="#icon-94"></use>
+                </svg>
+                <svg class="icon_h" aria-hidden="true">
+                    <use xlink:href="#icon-jc"></use>
+                </svg>
+                <svg class="icon_h" aria-hidden="true">
+                    <use xlink:href="#icon-dianying"></use>
+                </svg>
+            </p>
             <!-- <address>
                 <h3>家庭地址</h3>
                 <span>n宁波市</span>
@@ -44,7 +105,9 @@
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         <div class="content">
             <div class="company">
-                <h3 class="clr1">工作经历</h3>
+                <h3 class="clr1"><svg class="icon_l" aria-hidden="true">
+                    <use xlink:href="#icon-gongzuo"></use>
+                </svg>工作经历</h3>
                 <div class="company_details">
                     <h4>宁波夏天信息科技有限公司<span>2016年8月 - 至今</span></h4>
                     <h6>web前端开发</h6>
@@ -64,7 +127,9 @@
                 </div>
             </div>
             <div class="skills">
-                <h3 class="clr2">专业技能</h3>
+                <h3 class="clr2"><svg class="icon_l" aria-hidden="true">
+                    <use xlink:href="#icon-jineng"></use>
+                </svg>专业技能</h3>
                 <div class="skill_info">
                     <p>1. 熟练使用HTML5、DIV+CSS3，手写符合W3C规范代码，页面结构及兼容性问题
                         <br>2.熟练使用原生JavaScript，了解DOM，BOM，以及Ajax数据交互，并能实现网站的基本动态效果
@@ -94,17 +159,17 @@
                 </div>
             </div>
             <div class="education">
-                <h3 class="clr3">教育经历</h3>
+                <h3 class="clr3"><svg class="icon_l" aria-hidden="true">
+                    <use xlink:href="#icon-jiaoyu"></use>
+                </svg>教育经历</h3>
                 <div class="education_details">
                     <h4>浙江万里学院<span>2013年9月 - 2017年6月</span></h4>
                     <h6>软件工程专业</h6>
-                    <p class="cmpny1">在浙江万里学院四年的软件开发学习中，接触了C、C#、JavaEE、oracle、数据结构、网络协议、操作系统等等...
-                    学习这些扎实了我的理论基础，思维更活跃，也培养了我独立思考和自主学习的能力，在压力和困难面前我有很好的分析能力和解决问题的能力。我更是一位富有团队精神的人，能够相互协作和充分的沟通。具备软件开发能力。<br>我热衷于学习新的网页技术，正在学习后台nodeJs和thinkphp5框架，对网页响应式设计和UI设计有一定的了解，擅长运用Div + CSS进行网页的排版和设计，能很好根据用户需求完成可用性、易用性、良好交互性和用户体验的网页。</p>
+                    <p class="cmpny1"></p>
                 </div>
-               
             </div>
             <div class="copywrite">
-                <p>© 2017 https://github.com/ckdhold/ </p>
+                <p>© 2017 https://github.com/ckdhold/resume</p>
             </div>
         </div>
     </div>

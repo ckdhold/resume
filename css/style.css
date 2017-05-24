@@ -55,6 +55,7 @@ a:focus {
 
 .sidebar {
     background: #1b242f;
+    /*background: url("../picture/bg01.jpg") no-repeat;*/
     top: 0px;
     padding: 2em 30px;
 }
@@ -260,7 +261,8 @@ h3.clr3 {
 }
 
 .copywrite {
-    padding-left: 2em;
+    /*padding-left: 2em;*/
+    text-align: center;
     margin-top: 1em;
 }
 
